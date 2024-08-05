@@ -1,0 +1,24 @@
+h2::before{
+    content: "T";
+    color: red;
+    text-decoration: underline;
+    font-size: 160px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2::after{
+    content:" class";
+    color: rgb(179, 65, 190);
+    font-size: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-size: 100px;
+}
+p::first-line{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 80px;
+}
